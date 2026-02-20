@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Spark</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Welcome to Job Spark</h1>
+  <p>Enter your skills to find jobs and take your skill test:</p>
+
+  <input type="text" id="skills" placeholder="e.g. Electrician, Designer">
+  <button onclick="startTest()">Start Test</button>
+
+  <div id="testArea"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
